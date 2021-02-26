@@ -3,6 +3,14 @@ First connect the dongle to your pc.
 clone this repo `git clone https://github.com/smart-sensor-devices-ab/hbiouAirToFirebase.git`
 Create a firebase account . https://firebase.google.com/
 Create an app and get put the information on firebaseconfig.js found in root folder.
+Also make sure your firebase database read write rules are true.
+
+`{
+  "rules": {
+    ".read": false,
+    ".write": false
+  }
+}`
 
 To run this script you need to have a web application bundler. You can use parceljs https://parceljs.org/getting_started.html
 
