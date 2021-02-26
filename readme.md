@@ -7,8 +7,8 @@ Also make sure your firebase database read write rules are true.
 
 `{
   "rules": {
-    ".read": false,
-    ".write": false
+    ".read": true,
+    ".write": true
   }
 }`
 
